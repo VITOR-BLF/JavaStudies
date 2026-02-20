@@ -1,16 +1,40 @@
 package Introduction;
-
+/**
+ * <h2>Primitive Types Overview</h2>
+ *
+ * <h3>Integer Types</h3>
+ * <ul>
+ *   <li><b>byte</b> — 8-bit signed integer</li>
+ *   <li><b>short</b> — 16-bit signed integer</li>
+ *   <li><b>int</b> — 32-bit signed integer (most commonly used)</li>
+ *   <li><b>long</b> — 64-bit signed integer</li>
+ * </ul>
+ *
+ * <h3>Floating-Point Types</h3>
+ * <ul>
+ *   <li><b>float</b> — 32-bit floating-point number</li>
+ *   <li><b>double</b> — 64-bit floating-point number (default for decimals)</li>
+ * </ul>
+ *
+ * <h3>Character Type</h3>
+ * <ul>
+ *   <li><b>char</b> — 16-bit Unicode character</li>
+ * </ul>
+ *
+ * <h3>Boolean Type</h3>
+ * <ul>
+ *   <li><b>boolean</b> — Represents true or false</li>
+ * </ul>
+ *
+ * <h3>Key Characteristics</h3>
+ * <ul>
+ *   <li>Store simple values directly in memory</li>
+ *   <li>Have fixed size</li>
+ *   <li>Are not objects</li>
+ *   <li>Provide fast performance</li>
+ *   </ul>
+ */
 public class Topic01_PrimitiveTypes {
-
-    /**
-     * - Explains basic concepts about variables and primitive types:<br><br>
-     *
-     * <p>1) A variable reserves a space in memory to store a value.</p>
-     *
-     * <p>2) Primitive types are basic data types that store simple values directly in memory,
-     * such as integers, floating-point numbers, characters, and booleans.</p>
-     */
-
     static void main() {
 
         // Small Integer Numbers (8 bits)
