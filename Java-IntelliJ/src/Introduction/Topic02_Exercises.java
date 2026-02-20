@@ -75,14 +75,30 @@ public class Topic02_Exercises {
         System.out.println();
 
         // Exercise 7 - Simple Comparison
-        // Exercise 8 - Negative Number, Positive Number or Zero
-        // Exercise 9 - Range
-        // Exercise 10 - Allowed to Drive?
-        // Exercise 11 - Approved
-        // Exercise 12 - Number Pair and Positive
-        // Exercise 13 - Precedence
-        // Exercise 14 - Multi-word Expression
-        // Exercise 15 - Combined Logic
+        int numberOneExSeven = 10;
+        int numberTwoExSeven = 12;
+        System.out.println(numberOneExSeven > numberTwoExSeven);
+        System.out.println(numberOneExSeven < numberTwoExSeven);
+        System.out.println(numberOneExSeven != numberTwoExSeven);
+        System.out.println(numberOneExSeven == numberTwoExSeven);
+        System.out.println(numberOneExSeven <= numberTwoExSeven);
+        System.out.println(numberOneExSeven >= numberTwoExSeven);
 
+        System.out.println();
+
+        // Exercise 8 - Precedence (Without run code)
+        int one = 5 + 3 * 2; /* 11 */
+        int two = (5 + 3) * 2; /* 16 */
+
+        System.out.println();
+
+        // Exercise 9 - Multi-word Expression (Explain)
+        int a = 10;
+        int b = 3;
+        System.out.println(a / b * b + a % b);
+            /*
+                Division (a / b) -> Multiplication (Division Result  * b) -> Rest (a % b) ->
+                Sum (Result [Division Result * B] + Rest Result )
+            */
     }
 }
