@@ -1,6 +1,6 @@
 package Introduction;
 
-public class Topic04_Arrays {
+public class Topic05_Arrays {
     static void main() {
 
     }
